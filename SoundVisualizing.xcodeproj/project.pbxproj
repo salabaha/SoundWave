@@ -13,6 +13,8 @@
 		EFA1857325D5861800699401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1857125D5861800699401 /* Main.storyboard */; };
 		EFA1857525D5861A00699401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA1857425D5861A00699401 /* Assets.xcassets */; };
 		EFA1857825D5861A00699401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA1857625D5861A00699401 /* LaunchScreen.storyboard */; };
+		EFA1858225D5867700699401 /* AudioSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1858025D5867700699401 /* AudioSampler.swift */; };
+		EFA1858325D5867700699401 /* SoundWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA1858125D5867700699401 /* SoundWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EFA1857425D5861A00699401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA1857725D5861A00699401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA1857925D5861A00699401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA1858025D5867700699401 /* AudioSampler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioSampler.swift; sourceTree = "<group>"; };
+		EFA1858125D5867700699401 /* SoundWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		EFA1855F25D5861800699401 = {
 			isa = PBXGroup;
 			children = (
+				EFA1858025D5867700699401 /* AudioSampler.swift */,
+				EFA1858125D5867700699401 /* SoundWaveView.swift */,
 				EFA1856A25D5861800699401 /* SoundVisualizing */,
 				EFA1856925D5861800699401 /* Products */,
 			);
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA1857025D5861800699401 /* ViewController.swift in Sources */,
+				EFA1858325D5867700699401 /* SoundWaveView.swift in Sources */,
 				EFA1856C25D5861800699401 /* AppDelegate.swift in Sources */,
 				EFA1856E25D5861800699401 /* SceneDelegate.swift in Sources */,
+				EFA1858225D5867700699401 /* AudioSampler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
